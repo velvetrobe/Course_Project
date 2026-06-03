@@ -1,0 +1,57 @@
+* {
+  font-family: 'body', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+  background-color: #ddf7f1;
+  margin: 0;
+  padding: 0;
+}
+
+.centered-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #E8F6F3;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Brand_Title {
+  font-family: 'title', Arial, Helvetica, sans-serif;
+  font-variation-settings: 'YEAR' 2000;
+  margin: 0;
+  font-size: 70px;
+  color: #0B5345;
+}
+
+.main_display {
+  margin-top: 200px;
+  width: 300px;
+  border: 15px solid #16A085;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #D0ECE7;
+  min-height: 300px;
+  padding: 5%;
+}
+
+button {
+  background: #45B39D;
+  border: 5px solid #16A085;
+  border-radius: 15px;
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-size: 50px;
+}

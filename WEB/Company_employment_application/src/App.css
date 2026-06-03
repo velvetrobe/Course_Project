@@ -1,0 +1,82 @@
+* {
+  font-family: 'body', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+header img {
+  height: 70px;
+  width: auto;
+}
+
+.Brand_Title {
+  font-family: 'title', Arial, Helvetica, sans-serif;
+  font-variation-settings: 'YEAR' 2000;
+  margin: 0;
+  font-size: 70px;
+}
+
+.login_wrapper {
+  margin-top: 300px;
+  width: 980px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 440px;
+  padding: 5%;
+}
+
+.login-card {
+  text-align: center;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.form-group label {
+  width: 150px;
+  font-size: 50px;
+  color: #0B5345;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 15px;
+}
+
+input::placeholder {
+  color: #bebebe;
+}
+
+button {
+
+  border-radius: 15px;
+  margin-top: 15px;
+  color: #ffff;
+
+}
